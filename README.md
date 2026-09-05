@@ -27,9 +27,15 @@ I build and ship mobile apps for a living — 2.5+ years of production Flutter w
 - **Payments** — WebView-based gateway integrations
 - **Release** — App Store & Google Play publishing, Freezed, GetIt, flutter_screenutil
 
-## A note on repositories
+## Public work
 
-Most of my work lives in private client repositories and can't be shared directly. The public repositories on this profile are extracted, reusable pieces of that work — patterns I've used across multiple production apps, rebuilt as standalone packages with tests and documentation.
+Most of my client work lives in private repositories and can't be shared directly. These are extracted, reusable pieces of it — patterns I've used across multiple production apps, rebuilt standalone with tests and documentation.
+
+| Repository | What it is |
+|---|---|
+| [flutter_clean_architecture_shop](https://github.com/Romana9/flutter_clean_architecture_shop) | Product catalogue in Clean Architecture — Bloc, GetIt, Freezed, cursor pagination, offline caching, 45 tests |
+| [dio_response_normalizer](https://github.com/Romana9/dio_response_normalizer) | Dio interceptor that normalizes legacy REST responses into one predictable shape |
+| [webview_payment_resolver](https://github.com/Romana9/webview_payment_resolver) | Three-state payment resolution for WebView gateway flows — paid, declined, unknown |
 
 ## Links
 
